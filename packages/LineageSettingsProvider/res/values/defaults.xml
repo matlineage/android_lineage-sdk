@@ -64,6 +64,13 @@
     -->
     <integer name="def_battery_style">0</integer>
 
+    <!-- Default for LineageSettings.System.STATUS_BAR_SHOW_BATTERY_PERCENT
+         * 0: Hide the battery percentage
+         * 1: Display the battery percentage inside the icon
+         * 2: Display the battery percentage next to the icon
+    -->
+    <integer name="def_status_bar_show_battery_percent">1</integer>
+
     <!-- Default clock position
          * 0: show the clock in the right position (LTR)
          * 1: show the clock in the center
