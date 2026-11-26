@@ -1337,6 +1337,26 @@ public final class LineageSettings {
         /** @hide */
         public static final Validator TORCH_LONG_PRESS_POWER_GESTURE_VALIDATOR = sBooleanValidator;
 
+        public static final String SPECTRUM_LOCKSCREEN = "spectrum_lockscreen";
+
+        /** @hide */
+        public static final Validator SPECTRUM_LOCKSCREEN_VALIDATOR = sBooleanValidator;
+
+        public static final String SPECTRUM_STATUSBAR = "spectrum_statusbar";
+
+        /** @hide */
+        public static final Validator SPECTRUM_STATUSBAR_VALIDATOR = sBooleanValidator;
+
+        public static final String SPECTRUM_WIDTH = "spectrum_width";
+
+        /** @hide */
+        public static final Validator SPECTRUM_WIDTH_VALIDATOR = sAlwaysTrueValidator;
+
+        public static final String SPECTRUM_LOCKSCREEN_HEIGHT = "spectrum_lockscreen_height";
+
+        /** @hide */
+        public static final Validator SPECTRUM_LOCKSCREEN_HEIGHT_VALIDATOR = sAlwaysTrueValidator;
+
         /**
          * When the torch has been turned on by long press on power,
          * automatically turn off after a configurable number of seconds.
@@ -2180,6 +2200,10 @@ public final class LineageSettings {
                     TORCH_LONG_PRESS_POWER_GESTURE_VALIDATOR);
             VALIDATORS.put(TORCH_LONG_PRESS_POWER_TIMEOUT,
                     TORCH_LONG_PRESS_POWER_TIMEOUT_VALIDATOR);
+            VALIDATORS.put(SPECTRUM_LOCKSCREEN, SPECTRUM_LOCKSCREEN_VALIDATOR);
+            VALIDATORS.put(SPECTRUM_STATUSBAR, SPECTRUM_STATUSBAR_VALIDATOR);
+            VALIDATORS.put(SPECTRUM_WIDTH, SPECTRUM_WIDTH_VALIDATOR);
+            VALIDATORS.put(SPECTRUM_LOCKSCREEN_HEIGHT, SPECTRUM_LOCKSCREEN_HEIGHT_VALIDATOR);
             VALIDATORS.put(BUTTON_BACKLIGHT_ONLY_WHEN_PRESSED,
                     BUTTON_BACKLIGHT_ONLY_WHEN_PRESSED_VALIDATOR);
             VALIDATORS.put(CHARGING_CONTROL_ENABLED, CHARGING_CONTROL_ENABLED_VALIDATOR);
