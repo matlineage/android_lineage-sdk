@@ -23,6 +23,9 @@
     <!-- Default for LineageSettings.Secure.ADVANCED_REBOOT -->
     <bool name="def_advanced_reboot">true</bool>
 
+    <!-- Default for LineageSettings.Secure.ADVANCED_REBOOT_SECURED -->
+    <bool name="def_advanced_reboot_secured">true</bool>
+
     <!-- Defaults for System -->
 
     <!-- Default for LineageSettings.System.FORCE_SHOW_NAVBAR -->

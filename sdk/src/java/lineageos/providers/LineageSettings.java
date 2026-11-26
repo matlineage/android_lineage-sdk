@@ -2823,6 +2823,12 @@ public final class LineageSettings {
         public static final String ADVANCED_REBOOT = "advanced_reboot";
 
         /**
+         * Whether to show advanced reboot options on a secured lock screen
+         * @hide
+         */
+        public static final String ADVANCED_REBOOT_SECURED = "advanced_reboot_secured";
+
+        /**
          * Whether detail view for the location tile is enabled
          * @hide
          */

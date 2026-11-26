@@ -447,6 +447,9 @@ public class LineageDatabaseHelper extends SQLiteOpenHelper{
 
             loadBooleanSetting(stmt, LineageSettings.Secure.ADVANCED_REBOOT,
                     R.bool.def_advanced_reboot);
+
+            loadBooleanSetting(stmt, LineageSettings.Secure.ADVANCED_REBOOT_SECURED,
+                    R.bool.def_advanced_reboot_secured);
         } finally {
             if (stmt != null) stmt.close();
         }
