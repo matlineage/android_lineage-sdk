@@ -1357,6 +1357,11 @@ public final class LineageSettings {
         /** @hide */
         public static final Validator SPECTRUM_LOCKSCREEN_HEIGHT_VALIDATOR = sAlwaysTrueValidator;
 
+        public static final String SPECTRUM_USE_MIC = "spectrum_use_mic";
+
+        /** @hide */
+        public static final Validator SPECTRUM_USE_MIC_VALIDATOR = sBooleanValidator;
+
         /**
          * When the torch has been turned on by long press on power,
          * automatically turn off after a configurable number of seconds.
@@ -2204,6 +2209,7 @@ public final class LineageSettings {
             VALIDATORS.put(SPECTRUM_STATUSBAR, SPECTRUM_STATUSBAR_VALIDATOR);
             VALIDATORS.put(SPECTRUM_WIDTH, SPECTRUM_WIDTH_VALIDATOR);
             VALIDATORS.put(SPECTRUM_LOCKSCREEN_HEIGHT, SPECTRUM_LOCKSCREEN_HEIGHT_VALIDATOR);
+            VALIDATORS.put(SPECTRUM_USE_MIC, SPECTRUM_USE_MIC_VALIDATOR);
             VALIDATORS.put(BUTTON_BACKLIGHT_ONLY_WHEN_PRESSED,
                     BUTTON_BACKLIGHT_ONLY_WHEN_PRESSED_VALIDATOR);
             VALIDATORS.put(CHARGING_CONTROL_ENABLED, CHARGING_CONTROL_ENABLED_VALIDATOR);
